@@ -1,4 +1,3 @@
-const listWithID = document.querySelector('#categories');
-const menuItemsByTagName = listWithID.querySelectorAll(".item");
-console.log("Number of categories: " + menuItemsByTagName.length);
+const listWithID = document.querySelectorAll('#categories .item');
+console.log("Number of categories: " + listWithID.length);
 
